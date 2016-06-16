@@ -71,3 +71,44 @@
 	margin-left: 20px;
 	margin-right: 20px;
 }
+
+.widgetafterheader {
+  width: 50%;
+  display: table-cell;
+  padding: 1em;
+}
+​
+.before-widgetafterheader {
+  background-color: #002B7F;
+}
+​
+#widgetafterheader1, #widgetafterheader2{
+  width: 10%;
+  padding: 20px;
+}
+​
+.widgetafterheader-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: nunito;
+    text-align: right;    
+}
+​
+.widgetafterheader-text {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: open-sans;
+  font-style: italic;
+  text-align: right;
+}
+​
+.widgetafterheader-cta {
+  font-family: nunito;
+  color: #ffffff !important;
+  font-size: 20px;
+  text-decoration: none !important;
+  background-color: #CE1126;
+  padding: 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
