@@ -1441,6 +1441,115 @@ h2.speaker-sessions {
 .tix-column-quantity:before {
   content: "Quantity"; }
 
+#header-container {
+  color: #fff;
+  background: url("https://2016.bucharest.wordcamp.org/files/2016/06/074_panorama_by_lestatis-d5m7p5t.jpg") !important; }
+
+img[src*="path"] {
+  display: none !important; }
+
+#after-header {
+  background-color: #002B7F;
+  position: absolute;
+  max-width: 100%;
+  right: 0;
+  left: 0;
+  display: flex; }
+
+#after-header-1 {
+  width: 50%;
+  display: table-cell !important;
+  padding: 1em; }
+
+#after-header-2 {
+  width: 50%;
+  display: table-cell;
+  padding: 1em; }
+
+#widgetafterheader1 {
+  float: right; }
+
+#widgetafterheader1, #widgetafterheader2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #002B7F; }
+
+#after-header-container {
+  margin-top: -45px;
+  margin-right: -50px;
+  margin-left: -50px; }
+
+.widgetafterheader-title {
+  font-size: 18px;
+  color: #fff;
+  font-family: nunito;
+  text-align: right !important; }
+
+.widgetafterheader-text {
+  color: #ffffff;
+  font-size: 13px;
+  font-family: open-sans;
+  font-style: italic !important;
+  text-align: right !important; }
+
+.widgetafterheader-cta {
+  font-family: nunito;
+  color: #ffffff !important;
+  font-size: 18px;
+  text-decoration: none !important;
+  background-color: #e14a25;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block !important;
+  float: left;
+  margin-bottom: -1.5em;
+  width: 200px;
+  border: solid 1px #D94E3B;
+  -webkit-box-shadow: 0px 5px 0px #84261a;
+  -moz-box-shadow: 0px 5px 0px #84261a;
+  box-shadow: 0px 5px 0px #84261a; }
+
+#before-content {
+  margin-top: -20px;
+  position: relative; }
+
+#before-content-container {
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  position: relative; }
+
+#icon {
+  display: none; }
+
+.central {
+  background-color: #c3dce6; }
+
+.before-content .xoxo li .textwidget {
+  font-family: open-sans;
+  font-size: 15px; }
+
+.before-content .xoxo li:nth-child(odd) {
+  background-color: transparent; }
+
+.fa-star:before {
+  color: #fff;
+  background-color: black;
+  border-radius: 100px;
+  padding: 10px; }
+
+.fa-microphone:before {
+  color: #fff;
+  background-color: black;
+  border-radius: 100px;
+  padding: 10px; }
+
+.fa-users:before {
+  color: #fff;
+  background-color: black;
+  border-radius: 100px;
+  padding: 10px; }
+
 #before-buttons {
   margin: -1em;
   border-spacing: 1em; }
