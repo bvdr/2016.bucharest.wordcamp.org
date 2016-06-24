@@ -45,7 +45,7 @@
 				}
 			}
 			
-			@media query and(max-width: 1080px) {
+			@media screen and(max-width: 1080px) {
 				&.logo {
 					a {
 						width: 100px;
@@ -58,7 +58,7 @@
 			}
 			
 			
-			@media query and(max-width: 880px) {
+			@media screen and(max-width: 880px) {
 				&.logo {
 					display: none;
 				}
@@ -68,7 +68,7 @@
 				}
 			}
 			
-			@media query and(max-width: 780px) {
+			@media screen and(max-width: 780px) {
 				a {
 					font-size: 14px;
 				}
