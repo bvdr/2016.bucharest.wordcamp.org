@@ -1681,17 +1681,17 @@ img[src*="path"] {
       color: #035073; }
       #main-menu-wrapper .menu li.current-menu-item a, #main-menu-wrapper .menu li:hover a {
         color: #035073; }
-    @media query and (max-width: 1080px) {
+    @media screen and (max-width: 1080px) {
       #main-menu-wrapper .menu li.logo a {
         width: 100px; }
       #main-menu-wrapper .menu li.after-logo {
         margin-left: 100px; } }
-    @media query and (max-width: 880px) {
+    @media screen and (max-width: 880px) {
       #main-menu-wrapper .menu li.logo {
         display: none; }
       #main-menu-wrapper .menu li.after-logo {
         margin-left: 0px; } }
-    @media query and (max-width: 780px) {
+    @media screen and (max-width: 780px) {
       #main-menu-wrapper .menu li a {
         font-size: 14px; } }
     #main-menu-wrapper .menu .sub-menu li {
