@@ -1653,3 +1653,53 @@ img[src*="path"] {
   padding: 10px;
   border-radius: 20px;
   display: inline-block; }
+
+#main-menu-wrapper {
+  background-color: #1A6E94;
+  border-bottom: 10px solid #035073; }
+  #main-menu-wrapper #main-menu {
+    text-align: center; }
+  #main-menu-wrapper .menu {
+    margin: 0 auto; }
+    #main-menu-wrapper .menu li a {
+      font-size: 16px;
+      font-weight: bold; }
+    #main-menu-wrapper .menu li.logo {
+      position: absolute;
+      top: -20px; }
+      #main-menu-wrapper .menu li.logo:hover {
+        background-color: transparent; }
+      #main-menu-wrapper .menu li.logo a {
+        background: url("https://2016.bucharest.wordcamp.org/files/2016/06/logo.png") no-repeat center center;
+        height: 321px;
+        text-indent: -9999999px;
+        width: 268px; }
+    #main-menu-wrapper .menu li.after-logo {
+      margin-left: 268px; }
+    #main-menu-wrapper .menu li.current-menu-item, #main-menu-wrapper .menu li:hover {
+      background: url("https://2016.bucharest.wordcamp.org/files/2016/06/menu_arrow.png") no-repeat center 37px transparent;
+      color: #035073; }
+      #main-menu-wrapper .menu li.current-menu-item a, #main-menu-wrapper .menu li:hover a {
+        color: #035073; }
+    @media query and (max-width: 1080px) {
+      #main-menu-wrapper .menu li.logo a {
+        width: 100px; }
+      #main-menu-wrapper .menu li.after-logo {
+        margin-left: 100px; } }
+    @media query and (max-width: 880px) {
+      #main-menu-wrapper .menu li.logo {
+        display: none; }
+      #main-menu-wrapper .menu li.after-logo {
+        margin-left: 0px; } }
+    @media query and (max-width: 780px) {
+      #main-menu-wrapper .menu li a {
+        font-size: 14px; } }
+    #main-menu-wrapper .menu .sub-menu li {
+      border: 0px; }
+      #main-menu-wrapper .menu .sub-menu li a {
+        color: #fff; }
+
+#header-container {
+  height: 650px; }
+  #header-container #header {
+    display: none; }
