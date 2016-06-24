@@ -1683,6 +1683,8 @@ img[src*="path"] {
         color: #035073; }
     @media screen and (max-width: 1080px) {
       #main-menu-wrapper .menu li.logo a {
+        background-size: 100%;
+        height: 160px;
         width: 100px; }
       #main-menu-wrapper .menu li.after-logo {
         margin-left: 100px; } }
