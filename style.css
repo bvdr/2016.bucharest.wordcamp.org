@@ -1699,7 +1699,10 @@ img[src*="path"] {
   #before-content .central-buttons #icon {
     display: block; }
   #before-content .central-buttons .fa {
-    margin: 0px; }
+    bottom: -20px;
+    margin: 0px;
+    position: relative;
+    z-index: 100; }
     #before-content .central-buttons .fa:before {
       background-color: transparent;
       font-size: 60px; }
