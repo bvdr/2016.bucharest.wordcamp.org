@@ -1705,3 +1705,21 @@ img[src*="path"] {
   height: 600px; }
   #header-container #header {
     display: none; }
+
+#before-content .central-buttons {
+  height: auto;
+  padding-bottom: 20px; }
+  #before-content .central-buttons #icon {
+    display: block; }
+  #before-content .central-buttons .fa:before {
+    background-color: transparent;
+    font-size: 60px; }
+  #before-content .central-buttons #central {
+    margin: 0px;
+    position: relative; }
+#before-content #central-1 .fa:before {
+  background-color: #002b7f; }
+#before-content #central-2 .fa:before {
+  background-color: #fcd116; }
+#before-content #central-3 .fa:before {
+  background-color: #ce1126; }
