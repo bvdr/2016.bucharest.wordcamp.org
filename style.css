@@ -1553,34 +1553,21 @@ img[src*="path"] {
 
 #topbar1 {
   background-color: #002B7F;
-  height: 50px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0px; }
 
 #topbar2 {
   background-color: #FCD116;
-  height: 50px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0px; }
 
 #topbar3 {
   background-color: #CE1126;
-  height: 50px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0px; }
-
-#icon {
-  width: 40px;
-  height: 40px;
-  background-color: #000000;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px; }
 
 #central {
   height: 200px;
@@ -1711,9 +1698,11 @@ img[src*="path"] {
   padding-bottom: 20px; }
   #before-content .central-buttons #icon {
     display: block; }
-  #before-content .central-buttons .fa:before {
-    background-color: transparent;
-    font-size: 60px; }
+  #before-content .central-buttons .fa {
+    margin: 0px; }
+    #before-content .central-buttons .fa:before {
+      background-color: transparent;
+      font-size: 60px; }
   #before-content .central-buttons #central {
     margin: 0px;
     position: relative; }
