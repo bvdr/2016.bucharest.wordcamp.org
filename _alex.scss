@@ -108,7 +108,10 @@
 		}
 		
 		.fa {
+			bottom: -20px;
 			margin: 0px;
+			position: relative;
+			z-index: 100;
 			
 			&:before {
 				background-color: transparent;
