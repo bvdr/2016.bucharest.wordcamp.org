@@ -97,3 +97,51 @@
 		display: none;
 	}
 }
+
+#before-content {
+	.central-buttons {
+		height: auto;
+		padding-bottom: 20px;
+		
+		#icon {
+			display: block;
+		}
+		
+		.fa {
+			&:before {
+				background-color: transparent;
+				font-size: 60px;
+			}
+		}
+		
+		#central {
+			margin: 0px;
+			position: relative;
+		}
+	}
+	
+	#central-1 {
+		.fa {
+			&:before {
+				background-color: #002b7f;
+			}
+		}
+	}
+	
+	#central-2 {
+		.fa {
+			&:before {
+				background-color: #fcd116;
+			}
+		}
+	}
+	
+	#central-3 {
+		.fa {
+			&:before {
+				background-color: #ce1126;
+			}
+		}
+	}
+	
+}
