@@ -1641,6 +1641,51 @@ img[src*="path"] {
   border-radius: 20px;
   display: inline-block; }
 
+@media screen and (max-width: 780px) {
+  .central-buttons {
+    display: block !important;
+    width: 100% !important; } }
+@media screen and (max-width: 780px) {
+  .widgetafterheader-cta {
+    margin-left: -70px;
+    margin-top: -10px; } }
+.entry-title {
+  font-family: nunito; }
+
+#content {
+  margin-top: -60px;
+  font-family: open-sans; }
+
+.widget1-calltoaction {
+  background-color: #e14a25;
+  border: solid 1px #D94E3B;
+  padding: 10px;
+  color: #fff;
+  font-family: nunito;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 0 5px 0 #84261a; }
+
+.widget1-title {
+  font-size: 24px;
+  font-family: nunito; }
+
+.widget1-content {
+  font-family: opens-sans;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.widget-title {
+  font-family: nunito; }
+
+.sponsor-level-title {
+  font-size: 20px; }
+
+#before-footer-wrapper {
+  display: none; }
+
 #main-menu-wrapper {
   background-color: #1A6E94;
   border-bottom: 10px solid #035073; }
