@@ -1754,6 +1754,10 @@ img[src*="path"] {
   #before-content .central-buttons #central {
     margin: 0px;
     position: relative; }
+  #before-content .central-buttons .widget-title {
+    color: #1A6E94;
+    font-size: 28px;
+    padding-top: 40px; }
 #before-content #central-1 .fa:before {
   background-color: #002b7f; }
 #before-content #central-2 .fa:before {
