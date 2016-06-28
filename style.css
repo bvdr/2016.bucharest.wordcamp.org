@@ -1506,8 +1506,8 @@ img[src*="path"] {
 
 #before-content-container {
   display: flex;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 135px;
+  margin-bottom: 30px;
   position: relative; }
 
 #icon {
@@ -1553,24 +1553,26 @@ img[src*="path"] {
 
 #topbar1 {
   background-color: #002B7F;
+  border-bottom: 2px solid #000819;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0px; }
 
 #topbar2 {
   background-color: #FCD116;
+  border-bottom: 2px solid #aa8a02;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0px; }
 
 #topbar3 {
   background-color: #CE1126;
+  border-bottom: 2px solid #700915;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   padding: 0px; }
 
 #central {
-  height: 200px;
   margin-top: -20px;
   background-color: #c3dce6;
   border-bottom-right-radius: 5px;
@@ -1677,14 +1679,14 @@ img[src*="path"] {
   margin-top: 10px;
   margin-bottom: 10px; }
 
-.widget-title {
-  font-family: nunito; }
-
 .sponsor-level-title {
   font-size: 20px; }
 
 #before-footer-wrapper {
   display: none; }
+
+body {
+  background: url("https://2016.bucharest.wordcamp.org/files/2016/06/vampir_fundal.png") no-repeat 500px 300px #F0FCFF; }
 
 #main-menu-wrapper {
   background-color: #1A6E94;
@@ -1753,14 +1755,21 @@ img[src*="path"] {
       font-size: 60px; }
   #before-content .central-buttons #central {
     margin: 0px;
+    min-height: 280px;
     position: relative; }
   #before-content .central-buttons .widget-title {
     color: #1A6E94;
     font-size: 28px;
     padding-top: 40px; }
+  #before-content .central-buttons .textwidget {
+    font-size: 20px;
+    line-height: 22px; }
 #before-content #central-1 .fa:before {
   background-color: #002b7f; }
 #before-content #central-2 .fa:before {
   background-color: #fcd116; }
 #before-content #central-3 .fa:before {
   background-color: #ce1126; }
+
+.widget-area {
+  background-color: #fff; }
