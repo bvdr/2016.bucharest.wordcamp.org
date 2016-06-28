@@ -1771,5 +1771,5 @@ body {
 #before-content #central-3 .fa:before {
   background-color: #ce1126; }
 
-.widget-area {
+#content-row-wrapper .widget-area {
   background-color: #fff; }
