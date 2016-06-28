@@ -140,7 +140,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #e14a25;
+  color: #1A1A1A;
   font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
   font-weight: 700; }
 
@@ -191,14 +191,13 @@ body.admin-bar #main-menu-wrapper {
   body.admin-bar #main-menu-wrapper {
     top: 32px; } }
 a {
-  color: #e14a25;
+  color: #FF492A;
   text-decoration: none;
   border-bottom: 1px solid #f4baab; }
 
 a:hover,
 a:focus {
-  color: #b9391a;
-  border-bottom: 1px solid #e14a25; }
+  color: #FF492A; }
 
 img {
   max-width: 100%;
@@ -1574,7 +1573,6 @@ img[src*="path"] {
 
 #central {
   margin-top: -20px;
-  background-color: #c3dce6;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px; }
 
@@ -1756,6 +1754,7 @@ body {
       background-color: transparent;
       font-size: 60px; }
   #before-content .central-buttons #central {
+    background-color: #D6F2FF;
     margin: 0px;
     min-height: 280px;
     position: relative; }
@@ -1765,6 +1764,7 @@ body {
     padding-top: 40px; }
   #before-content .central-buttons .textwidget {
     font-size: 20px;
+    font-style: italic;
     line-height: 22px; }
 #before-content #central-1 .fa:before {
   background-color: #002b7f; }
@@ -1774,4 +1774,11 @@ body {
   background-color: #ce1126; }
 
 #content-row-wrapper .widget-area {
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+#content-row-wrapper #main {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
