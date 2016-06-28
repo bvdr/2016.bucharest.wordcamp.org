@@ -120,9 +120,13 @@
     font-family: nunito;
 }
 #content {
-	  margin-top: -60px;
-    font-family: open-sans;
+	font-family: open-sans;
 }
+
+.home #content {
+	margin-top: -60px;
+}
+
 .widget1-calltoaction {
 	  background-color: #e14a25;
     border: solid 1px #D94E3B;

@@ -1655,8 +1655,10 @@ img[src*="path"] {
   font-family: nunito; }
 
 #content {
-  margin-top: -60px;
   font-family: open-sans; }
+
+.home #content {
+  margin-top: -60px; }
 
 .widget1-calltoaction {
   background-color: #e14a25;
