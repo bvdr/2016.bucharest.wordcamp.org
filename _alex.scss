@@ -123,6 +123,7 @@ body {
 		}
 		
 		#central {
+			background-color: #D6F2FF;
 			margin: 0px;
 			min-height: 280px;
 			position: relative;
@@ -136,6 +137,7 @@ body {
 		
 		.textwidget {
 			font-size: 20px;
+			font-style: italic;
 			line-height: 22px;
 		}
 	}
@@ -169,5 +171,15 @@ body {
 #content-row-wrapper {
 	.widget-area {
 		background-color: #fff;	
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+	}
+	
+	#main {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
 	}
 }
+
