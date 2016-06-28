@@ -10,25 +10,27 @@
 }
 #topbar1 {
 	background-color: #002B7F;
+	border-bottom: 2px solid darken(#002B7F, 20%);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 0px;
 }
 #topbar2 {
 	background-color: #FCD116;
+	border-bottom: 2px solid darken(#FCD116, 20%);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 0px;
 }
 #topbar3 {
 	background-color: #CE1126;
+	border-bottom: 2px solid darken(#CE1126, 20%);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	padding: 0px;
 }
 
 #central {
-	height: 200px;
 	margin-top: -20px;
 	background-color: #c3dce6;
 	border-bottom-right-radius: 5px;
@@ -142,9 +144,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.widget-title {
-	font-family: nunito;
-}
+
 .sponsor-level-title {
 	  font-size: 20px;
 }
