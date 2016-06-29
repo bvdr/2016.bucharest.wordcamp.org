@@ -143,6 +143,13 @@ h6 {
   color: #1A1A1A;
   font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
   font-weight: 700; }
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    color: #1A1A1A; }
 
 h1 {
   font-size: 2em; }
@@ -1655,9 +1662,6 @@ img[src*="path"] {
 #content {
   font-family: open-sans; }
 
-.home #content {
-  margin-top: -60px; }
-
 .widget1-calltoaction {
   background-color: #e14a25;
   border: solid 1px #D94E3B;
@@ -1773,12 +1777,55 @@ body {
 #before-content #central-3 .fa:before {
   background-color: #ce1126; }
 
-#content-row-wrapper .widget-area {
-  background-color: #fff;
+#content-row-wrapper {
+  margin-top: 0px; }
+  #content-row-wrapper .widget-area {
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+  #content-row-wrapper #main {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px; }
+
+.home #container {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
-#content-row-wrapper #main {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px; }
+
+#before-buttons,
+#before-content .xoxo,
+.before-content .xoxo li,
+.before-content .xoxo li .textwidget,
+#before-content .central-buttons {
+  border-spacing: 0;
+  margin: 0;
+  padding: 0; }
+
+#before-content .central-buttons {
+  display: block;
+  float: left;
+  padding: 0 10px; }
+
+#before-buttons {
+  margin: 0 -10px; }
+
+body.blog #content-row-wrapper .sidebar-cell.grid_9 {
+  float: left;
+  padding-right: 10px;
+  width: 66.66%; }
+
+body.blog #content-row-wrapper .sidebar-cell.grid_3 {
+  background-color: transparent;
+  padding: 0 0 0 10px;
+  width: 33.33%; }
+
+body.blog #content-row-wrapper .sidebar-cell.grid_3 .xoxo {
+  background-color: #fff; }
+
+body.blog #content-row-wrapper .sidebar-row #container {
+  float: none;
+  margin-right: 0;
+  max-width: 100%;
+  width: 100%; }

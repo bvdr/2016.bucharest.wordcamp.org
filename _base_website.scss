@@ -141,7 +141,11 @@ h5,
 h6 {
     color: #1A1A1A;
     font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-    font-weight: 700
+    font-weight: 700;
+	
+	a {
+		color: #1A1A1A;
+	}
 }
 h1 {
     font-size: 2em
