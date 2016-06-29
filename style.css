@@ -1789,6 +1789,8 @@ body {
     -moz-border-radius: 5px;
     border-radius: 5px; }
 
+.home #content .post {
+  margin-top: 0px; }
 .home #container {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

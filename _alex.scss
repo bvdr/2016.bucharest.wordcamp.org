@@ -187,6 +187,13 @@ body {
 }
 
 .home {
+	
+	#content {
+		.post {
+			margin-top: 0px;
+		}
+	}
+	
 	#container {
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
