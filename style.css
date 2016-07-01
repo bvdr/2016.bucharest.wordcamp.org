@@ -1772,7 +1772,8 @@ body {
     #before-content .central-buttons .textwidget {
       font-size: 20px;
       font-style: italic;
-      line-height: 22px; }
+      line-height: 22px;
+      padding: 0 20px; }
   #before-content #central-1 .fa:before {
     background-color: #002b7f; }
   #before-content #central-2 .fa:before {
