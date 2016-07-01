@@ -227,15 +227,26 @@ body {
 }
 
 body.blog #content-row-wrapper .sidebar-cell.grid_9 {
-	float: left;
+	float: none;
 	padding-right: 10px;
-	width: 66.66%;
+	width: 100%;
+	
+	@media screen and(min-width: 768px) {
+		float: left;
+		width: 66.66%;
+	}
 }
 
 body.blog #content-row-wrapper .sidebar-cell.grid_3 {
 	background-color: transparent;
+	float: none;
 	padding: 0 0 0 10px;
 	width: 33.33%;
+	
+	@media screen and(min-width: 768px) {
+		float: left;
+		width: 33.33%;
+	}
 }
 
 body.blog #content-row-wrapper .sidebar-cell.grid_3 .xoxo {
