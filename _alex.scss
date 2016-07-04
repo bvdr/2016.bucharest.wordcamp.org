@@ -145,6 +145,10 @@ body {
 			line-height: 22px;
 			padding: 0 20px;
 		}
+		
+		@media screen and(max-width: 768px) {
+			margin-bottom: 20px;
+		}
 	}
 	
 	#central-1 {
@@ -241,16 +245,16 @@ body.blog #content-row-wrapper .sidebar-cell.grid_3 {
 	background-color: transparent;
 	float: none;
 	padding: 0 0 0 10px;
-	width: 33.33%;
+	width: 100%;
+	
+	.xoxo {
+		background-color: #fff;
+	}
 	
 	@media screen and(min-width: 768px) {
 		float: left;
 		width: 33.33%;
 	}
-}
-
-body.blog #content-row-wrapper .sidebar-cell.grid_3 .xoxo {
-	background-color: #fff;
 }
 
 body.blog #content-row-wrapper .sidebar-row #container {
