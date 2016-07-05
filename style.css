@@ -1740,8 +1740,19 @@ body {
           color: #fff; }
 
 #header-container {
-  background-size: 100% !important;
-  background-position: 50% 50%; }
+  background-position: 0 0 !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% auto !important;
+  height: 100px; }
+  @media screen and (min-width: 760px) {
+    #header-container {
+      height: 250px; } }
+  @media screen and (min-width: 1080px) {
+    #header-container {
+      height: 350px; } }
+  @media screen and (min-width: 1580px) {
+    #header-container {
+      height: 500px; } }
   #header-container #header {
     display: none; }
 

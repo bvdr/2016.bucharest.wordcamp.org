@@ -96,12 +96,26 @@ body {
 }
 
 #header-container {
-	background-size: 100% !important;
-	background-position: 50% 50%;
+   background-position: 0 0 !important;
+   background-repeat: no-repeat !important;
+   background-size: 100% auto !important;
+	 height: 100px;
 
-	#header {
-		display: none;
-	}
+	 @media screen and (min-width: 760px) {
+		 height: 250px;
+	 }
+
+	  @media screen and (min-width: 1080px) {
+			height: 350px;
+		}
+
+		@media screen and (min-width: 1580px) {
+			height: 500px;
+		}
+
+	 #header {
+		 display: none;
+	 }
 }
 
 #before-content {
