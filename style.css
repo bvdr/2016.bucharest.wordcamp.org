@@ -1734,14 +1734,17 @@ body {
     @media screen and (max-width: 780px) {
       #main-menu-wrapper .menu li a {
         font-size: 14px; } }
-    #main-menu-wrapper .menu .sub-menu li {
-      border: 0px; }
-      #main-menu-wrapper .menu .sub-menu li a {
-        color: #fff; }
+    #main-menu-wrapper .menu .sub-menu {
+      z-index: 1000; }
+      #main-menu-wrapper .menu .sub-menu li {
+        border: 0px;
+        text-align: left; }
+        #main-menu-wrapper .menu .sub-menu li a {
+          color: #fff; }
 
 #header-container {
   height: 600px;
-  background-size: 100%; }
+  background-size: 100% !important; }
   #header-container #header {
     display: none; }
 
