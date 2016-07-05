@@ -142,7 +142,7 @@ h6 {
     color: #1A1A1A;
     font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
     font-weight: 700;
-	
+
 	a {
 		color: #1A1A1A;
 	}
@@ -725,11 +725,6 @@ select:focus {
     }
 }
 
-@media screen and (min-width: 520px) {
-    body.home #header-container {
-        height: 600px
-    }
-}
 @media screen and (min-width: 520px) {
     body.home #site-description:before {
         width: 400px;
