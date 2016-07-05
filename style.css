@@ -1668,6 +1668,8 @@ img[src*="path"] {
   border-radius: 5px;
   font-size: 18px;
   box-shadow: 0 5px 0 #84261a; }
+  .widget1-calltoaction:hover {
+    color: #000; }
 
 .widget1-title {
   font-size: 24px;
@@ -1863,4 +1865,4 @@ body.blog #content-row-wrapper .sidebar-row #container {
   .wcorg-mailchimp input[type="text"] {
     width: 90%; }
   .wcorg-mailchimp input[type="submit"] {
-    display: inline-block; }
+    display: inline-block !important; }
