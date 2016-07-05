@@ -1857,3 +1857,10 @@ body.blog #content-row-wrapper .sidebar-row #container {
   margin-right: 0;
   max-width: 100%;
   width: 100%; }
+
+.wcorg-mailchimp {
+  text-align: center; }
+  .wcorg-mailchimp input[type="text"] {
+    width: 90%; }
+  .wcorg-mailchimp input[type="submit"] {
+    display: inline-block; }

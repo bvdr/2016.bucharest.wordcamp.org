@@ -279,3 +279,15 @@ body.blog #content-row-wrapper .sidebar-row #container {
 	max-width: 100%;
 	width: 100%;
 }
+
+.wcorg-mailchimp {
+	text-align: center;
+
+	input[type="text"] {
+		width: 90%;
+	}
+
+	input[type="submit"] {
+		display: inline-block;
+	}
+}
