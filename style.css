@@ -1880,3 +1880,6 @@ body.blog #content-row-wrapper .sidebar-row #container {
 .entry-meta .meta-sep,
 .entry-meta .author {
   display: none; }
+
+.entry-author-info {
+  display: none; }
