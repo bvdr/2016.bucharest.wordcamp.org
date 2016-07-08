@@ -1627,7 +1627,6 @@ img[src*="path"] {
   background-color: #002B7F; }
 
 #widgetafterheader1, #widgetafterheader2 {
-  width: 10%;
   padding: 20px; }
 
 ​
@@ -1877,3 +1876,7 @@ body.blog #content-row-wrapper .sidebar-row #container {
     width: 90%; }
   .wcorg-mailchimp input[type="submit"] {
     display: inline-block !important; }
+
+.entry-meta .meta-sep,
+.entry-meta .author {
+  display: none; }

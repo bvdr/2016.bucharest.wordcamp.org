@@ -291,3 +291,10 @@ body.blog #content-row-wrapper .sidebar-row #container {
 		display: inline-block !important;
 	}
 }
+
+.entry-meta {
+	.meta-sep,
+	.author {
+		display: none;
+	}
+}
