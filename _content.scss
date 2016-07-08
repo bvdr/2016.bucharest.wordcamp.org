@@ -1,0 +1,21 @@
+.page-slug-organizers {
+  #container {
+     max-width: 100% !important;
+  }
+
+  .wcorg-organizer {
+     margin-right: 70px;
+     margin-top: 40px;
+     display: inline-block;
+        text-align: center;
+  }
+
+  @media screen and (max-width: 780px)  {
+    .wcorg-organizer {
+      margin-left: 50px;
+     }
+     .entry-title {
+       text-align: center;
+      }
+  }
+}

@@ -1544,6 +1544,19 @@ img[src*="path"] {
   border-radius: 100px;
   padding: 10px; }
 
+.page-slug-organizers #container {
+  max-width: 100% !important; }
+.page-slug-organizers .wcorg-organizer {
+  margin-right: 70px;
+  margin-top: 40px;
+  display: inline-block;
+  text-align: center; }
+@media screen and (max-width: 780px) {
+  .page-slug-organizers .wcorg-organizer {
+    margin-left: 50px; }
+  .page-slug-organizers .entry-title {
+    text-align: center; } }
+
 #before-buttons {
   margin: -1em;
   border-spacing: 1em; }
@@ -1610,11 +1623,9 @@ img[src*="path"] {
   display: table-cell;
   padding: 1em; }
 
-​
 .before-widgetafterheader {
   background-color: #002B7F; }
 
-​
 #widgetafterheader1, #widgetafterheader2 {
   width: 10%;
   padding: 20px; }
