@@ -153,3 +153,31 @@
 #before-footer-wrapper {
 	  display:none;
 }
+
+
+/*Albastru sub header*/
+#widgetafterheader1, #widgetafterheader2, #after-header {
+	background-color: #1a6e94;
+}
+/*Fundal 3 widgets*/
+#before-content .central-buttons #central {
+	background-color: rgba(255, 255, 255, 0.70);
+}
+/*Widget buttons*/
+a.widget1-calltoaction {
+	display: inline-block;
+	text-transform: uppercase;
+}
+/*Submit button*/
+input[type="submit"] {
+	background-color: #e14a25;
+	border: solid 1px #D94E3B;
+	padding: 10px;
+	color: #fff;
+	font-family: nunito;
+	border-radius: 5px;
+	font-size: 15px;
+	box-shadow: 0 5px 0 #84261a;
+	margin-top: 15px;
+	text-transform: uppercase;
+}
