@@ -183,7 +183,7 @@ strong {
 body {
   color: #464342;
   font: 16px "Lora", "Georgia", sans-serif;
-  line-height: 2;
+  line-height: 1.25;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff; }
