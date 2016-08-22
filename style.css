@@ -1905,3 +1905,14 @@ body.blog #content-row-wrapper .sidebar-row #container {
 
 #entry-author-info {
   display: none; }
+
+.single-wcb_speaker .speaker-avatar {
+  display: none; }
+
+.tix_tickets_table {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%; }
+
+.page-slug-tickets .tix_tickets_table input[type="submit"] {
+  float: left !important; }
