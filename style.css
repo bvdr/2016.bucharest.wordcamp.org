@@ -1747,9 +1747,9 @@ body {
       margin-left: 268px; }
     #main-menu-wrapper .menu li.current-menu-item, #main-menu-wrapper .menu li:hover {
       background: url("https://2016.bucharest.wordcamp.org/files/2016/06/menu_arrow.png") no-repeat center 37px transparent;
-      color: #035073; }
+      color: #ACDCF2; }
       #main-menu-wrapper .menu li.current-menu-item a, #main-menu-wrapper .menu li:hover a {
-        color: #035073; }
+        color: #ACDCF2; }
     @media screen and (max-width: 1080px) {
       #main-menu-wrapper .menu li.logo a {
         background-size: 100%;
@@ -1914,5 +1914,5 @@ body.blog #content-row-wrapper .sidebar-row #container {
   margin-right: 0px;
   width: 100%; }
 
-.page-slug-tickets .tix_tickets_table input[type="submit"] {
+.page-slug-tickets input[type="submit"] {
   float: left !important; }

@@ -41,10 +41,10 @@ body {
 			&.current-menu-item,
 			&:hover {
 				background: url('https://2016.bucharest.wordcamp.org/files/2016/06/menu_arrow.png') no-repeat center 37px transparent;
-				color: #035073;
+				color: #ACDCF2;
 
 				a {
-					color: #035073;
+					color: #ACDCF2;
 				}
 			}
 
@@ -316,9 +316,7 @@ body.blog #content-row-wrapper .sidebar-row #container {
 }
 
 .page-slug-tickets {
-	.tix_tickets_table {
-		input[type="submit"] {
-			float: left !important;
-		}
+	input[type="submit"] {
+		float: left !important;
 	}
 }
